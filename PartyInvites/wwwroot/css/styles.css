@@ -1,0 +1,56 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* INPUT ERRORS STYLIZING START */
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #fee;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #a02929;
+}
+/* INPUT END */
+
+
+/* REGISTRATION BLOCK START */
+.huge-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputs, .inputs input, .inputs select { 
+    font-size: 28px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.inputs button{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.inputs button:hover{
+    background-color: aliceblue;
+}
